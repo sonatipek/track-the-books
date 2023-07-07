@@ -6,6 +6,7 @@
 # 🎬 Track Book on Your Watch - EN
 A web application where you can save the books you read with their information. You can add the books you have read with information such as picture, title, author, genre, page number, publisher, reading date and score. In this way, you can easily keep track of the books you watch.
 
+*We do not use any database. Only local storage is used to save your records.*
 ## 💻 Tech Stack
 - Astro.js
 - Bootstrap
@@ -43,6 +44,7 @@ Getting started see `CONTRIBUTING.md`.
 # 🎬 Okuduğunuz Kitapları Takip Edin - TR
 İzlediğiniz kitapları bilgileri ile beraber kaydedebileceğiniz bir web uygulaması. Okuduğunuz kitapları resim, başlık, yazar, tür, sayfa sayısı, yayıncı, okuma tarihi ve puan gibi bilgileri ile beraber ekleyebilirsiniz. Bu sayede okuduğunuz kitapları kolayca takip edebilirsiniz.
 
+*Herhangi bir veritabanı kullanmıyoruz. Kayıtlarınızı kaydetmek için yalnızca yerel depolama kullanılır.*
 ## 💻 Kullanılan Teknolojiler
 - Astro.js
 - Bootstrap
