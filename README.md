@@ -28,9 +28,8 @@ A web application where you can save the movies you watch with their information
 | Light Color | ![#FFF](https://placehold.co/10x10/white/white) #FFF | 
 
 ## 📍 Roadmap & To-Do List
-- update series / movies
-- share the movie and series list
-- keeping track of read books
+- update books
+- share the books list
   
 ## 🌟 Feedback
 If you have any feedback, please contact at **sonatsayginipek@gmail.com** or **sonatipek.com** .
@@ -61,10 +60,10 @@ Getting started see `CONTRIBUTING.md`.
 | Birincil Renk | ![#198754](https://placehold.co/10x10/198754/198754) #198754 |
 | Koyu Renk | ![#212529](https://placehold.co/10x10/212529/212529) #212529 |
 | Açık Renk | ![#FFF](https://placehold.co/10x10/white/white) #FFF | 
+
 ## 📍 Yol Haritası & Yapılacaklar Listesi
-- Dizi ve Filmleri güncelleme özelliği
-- Dizi ve film listelerini paylaşma özelliği
-- okunmuş kitapları takip etme
+- kitapları güncelleme özelliği
+- kitap listelerini paylaşma özelliği
 
 ## 🌟 Geri bildirim
 Herhangi bir geri bildiriminiz varsa, lütfen **sonatsayginipek@gmail.com** veya **sonatipek.com** adresinden iletişime geçin.
