@@ -13,8 +13,8 @@ A web application where you can save the movies you watch with their information
 
 ## 📷 Screen Shots
 ![image](https://github.com/sonatipek/track-the-books/assets/80075444/9785314f-96f9-45be-a6d1-ed11d138731d)
-![image](https://github.com/sonatipek/track-the-movies/assets/80075444/3733bc15-cc09-451b-a592-bfb3acc4e98e)
-![image](https://github.com/sonatipek/track-the-movies/assets/80075444/8328e49f-c29d-43ab-9043-0e57294e627a)
+![image](https://github.com/sonatipek/track-the-books/assets/80075444/971ce1aa-aaa8-4a74-b30f-35bbe9c42454)
+
 
 
 
@@ -23,8 +23,7 @@ A web application where you can save the movies you watch with their information
 
 | Color             | Hex                                                               |
 | ----------------- | ------------------------------------------------------------------ |
-| Primary Color | ![#DC3545](https://placehold.co/10x10/dc3545/dc3545) #DC3545 |
-| Secondary Color | ![#FFC107](https://placehold.co/10x10/ffc107/ffc107) #FFC107 |
+| Primary Color | ![#198754](https://placehold.co/10x10/dc3545/198754) #198754 |
 | Dark Color | ![#212529](https://placehold.co/10x10/212529/212529) #212529 |
 | Light Color | ![#FFF](https://placehold.co/10x10/white/white) #FFF | 
 
@@ -51,17 +50,15 @@ Getting started see `CONTRIBUTING.md`.
 - Alpine.js
 
 ## 📷 Ekran Görüntüleri
-![image](https://github.com/sonatipek/track-the-movies/assets/80075444/a756e9d8-24c6-419b-9ac7-793516074e77)
-![image](https://github.com/sonatipek/track-the-movies/assets/80075444/3733bc15-cc09-451b-a592-bfb3acc4e98e)
-![image](https://github.com/sonatipek/track-the-movies/assets/80075444/8328e49f-c29d-43ab-9043-0e57294e627a)
+![image](https://github.com/sonatipek/track-the-books/assets/80075444/9785314f-96f9-45be-a6d1-ed11d138731d)
+![image](https://github.com/sonatipek/track-the-books/assets/80075444/971ce1aa-aaa8-4a74-b30f-35bbe9c42454)
 
 ## 💅🏼 Stil Rehberi
 ### Colors
 
 | Renk             | Hex                                                               |
 | ----------------- | ------------------------------------------------------------------ |
-| Birincil Renk | ![#DC3545](https://placehold.co/10x10/dc3545/dc3545) #DC3545 |
-| İkincil Renk | ![#FFC107](https://placehold.co/10x10/ffc107/ffc107) #FFC107 |
+| Birincil Renk | ![#198754](https://placehold.co/10x10/dc3545/198754) #198754 |
 | Koyu Renk | ![#212529](https://placehold.co/10x10/212529/212529) #212529 |
 | Açık Renk | ![#FFF](https://placehold.co/10x10/white/white) #FFF | 
 ## 📍 Yol Haritası & Yapılacaklar Listesi
