@@ -1,0 +1,251 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+---
+
+<Layout title="TBYW | Books">
+    <main class="container mt-5">
+
+        <div class="card mb-4 rounded-3 shadow-sm border-success-subtle">
+            <div class="card-header py-3 bg-success-subtle text-success-emphasis border-success-subtle">
+              <h4 class="my-0 fw-normal">Add Book</h4>
+            </div>
+            <div class="card-body">
+              <form class="row needs-validation" x-data novalidate>
+
+                <!-- Title -->
+                <div class="col-md-3">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control form-control-sm" id="book-title" placeholder="Ruh Adam" required>
+                        <label for="book-title">Book Title</label>
+                        <div class="invalid-feedback">
+                            Please make sure to fill out the input
+                        </div>  
+                    </div>
+                </div>
+
+                <!-- Author -->
+                <div class="col-md-2">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control form-control-sm" id="book-author" placeholder="Atsız" required>
+                        <label for="book-author">Book Author</label>
+                        <div class="invalid-feedback">
+                            Please make sure to fill out the input
+                        </div>  
+                    </div>
+                </div>
+
+                <!-- Genre -->
+                <div class="col-md-3">
+                    <div class="form-floating mb-3">
+                        <select class="form-select" id="book-genre" aria-label="Book Genre" required>
+                            <option selected disabled value="">Please make your selection</option>
+                            <option value="Fantasy">Fantasy</option>
+                            <option value="Adventure">Adventure</option>
+                            <option value="Romance">Romance</option>
+                            <option value="Contemporary">Contemporary</option>
+                            <option value="Dystopian">Dystopian</option>
+                            <option value="Mystery">Mystery</option>
+                            <option value="Thriller">Thriller</option>
+                            <option value="Horror">Horror</option>
+                            <option value="Mystery">Mystery</option>
+                            <option value="Romance">Romance</option>
+                            <option value="Paranormal">Paranormal</option>
+                            <option value="Historical fiction">Historical fiction</option>
+                            <option value="Science Fiction">Science Fiction</option>
+                            <option value="Children’s">Children’s</option>
+                            <option value="Memoir">Memoir</option>
+                            <option value="Cookbook">Cookbook</option>
+                            <option value="Art">Art</option>
+                            <option value="Self-help">Self-help</option>
+                            <option value="Development">Development</option>
+                            <option value="Motivational">Motivational</option>
+                            <option value="Health">Health</option>
+                            <option value="History">History</option>
+                            <option value="Travel">Travel</option>
+                            <option value="Guide / How-to">Guide / How-to</option>
+                            <option value="Families & Relationships">Families & Relationships</option>
+                            <option value="Humor">Humor</option>
+                            <option value="Poetry">Poetry</option>
+                            <option value="Academic">Academic</option>
+                            <option value="Research / Review">Research / Review</option>
+                            <option value="Religious ">Religious </option>
+                        </select>
+                        <label for="book-genre">Book Genre</label>
+                        <div class="invalid-feedback">
+                            Please make sure to fill out the input
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Page Number -->
+                <div class="col-md-2">
+                    <div class="form-floating mb-3">
+                        <input x-mask="99" class="form-control form-control-sm" id="book-page" placeholder="10" required>
+                        <label for="book-page">Page Number</label>
+                        <div class="invalid-feedback">
+                            Please make sure to fill out the input
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publisher -->
+                <div class="col-md-2">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control form-control-sm" id="book-publisher" placeholder="Ötüken Neşriyat" required>
+                        <label for="book-publisher">Publisher</label>
+                        <div class="invalid-feedback">
+                            Please make sure to fill out the input
+                        </div>  
+                    </div>
+                </div>
+
+                <!-- Reading Date -->
+                <div class="col-md-3">
+                    <div class="form-floating mb-3">
+                        <input type="date" class="form-control form-control-sm" id="book-date" placeholder="01.01.2023" required>
+                        <label for="book-date">Reading Date</label>
+                        <div class="invalid-feedback">
+                            Please make sure to fill out the input
+                        </div>  
+                    </div>
+                </div>
+
+                <!-- Score -->
+                <div class="col-md-2">
+                    <div class="form-floating mb-3">
+                        <select class="form-select" id="book-score" aria-label="Book Genre" required>
+                            <option selected disabled value="">Please make your selection</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                        <label for="book-score">Book Score</label>
+                        <div class="invalid-feedback">
+                            Please make sure to fill out the input
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Poster Link -->
+                <div class="col-md-7">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control form-control-sm" id="book-picture" placeholder="https://...">
+                        <label for="book-picture">Book Picture Link</label>
+                        <div class="invalid-feedback">
+                            Please make sure to fill out the input
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="col-12 btn btn-lg btn-success shadow-sm">Add The Book</button>
+              </form>
+
+            </div>
+        </div>
+    </main>
+    
+    <!-- Table -->
+    <section class="row my-5 container mx-auto">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle text-center table-striped-columns shadow">
+                <thead class="table-success">
+                    <tr>
+                        <th scope="col">Book Picture</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Author</th>
+                        <th scope="col">Genre</th>
+                        <th scope="col">Page Number</th>
+                        <th scope="col">Publisher</th>
+                        <th scope="col">Reading Date</th>
+                        <th scope="col">Book Score</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody id="books-tbody">
+                </tbody>
+            </table>  
+        </div>
+        <button id="delete-all" class="btn btn-dark col-md-3 ms-auto me-md-3 mt-3">Delete All Books</button>
+    </section>
+</Layout>
+
+
+<script>
+    import {Book} from "../../src/utils/book";
+
+    let form = document.querySelector('form');
+    // Inputs
+    let bookTitle = document.querySelector('#book-title'),
+        bookAuthor = document.querySelector('#book-author'),
+        bookGenre = document.querySelector('#book-genre'),
+        pageNumber = document.querySelector('#book-page'),
+        bookPublisher = document.querySelector('#book-publisher'),
+        readingDate = document.querySelector('#book-date'),
+        bookScore = document.querySelector('#book-score'),
+        bookPictureLink = document.querySelector('#book-picture');
+
+
+    
+    // When Page on Loaded
+    document.addEventListener('DOMContentLoaded', () => {
+        Book.loadAllData();
+
+        
+        // When clicked the delete-all button
+        Book.deleteAllData('#books-tbody','#delete-all', 'books');
+
+        // When Clicked the delete movie button. 
+        Book.deleteData('#books-tbody', 'delete-book', 'books');
+    });
+
+    // When form on submit
+    form.addEventListener('submit', (e) => {
+        
+        // Create Movie
+        const book = new Book(bookTitle.value, bookAuthor.value, bookGenre.value, bookPublisher.value, pageNumber.value, readingDate.value, bookScore.value, bookPictureLink.value);
+        
+        if (bookTitle.value === "" || bookAuthor.value === "" || bookGenre.value === "" || bookPublisher.value === "" || pageNumber.value === "" || readingDate.value === "" || bookScore.value === "") {
+            console.log(false);
+        }else{
+            // Movie add to UI
+            book.addDataToUI();
+            Book.addDataToStorage('books', book);
+            
+            // Clear Inputs
+            Book.clearInputs([bookTitle, bookAuthor, bookGenre, pageNumber, bookPublisher, readingDate, bookScore, bookPictureLink]);
+            
+            // When Clicked the delete movie button. 
+            Book.deleteData('#books-tbody', 'delete-book', 'books');
+        }
+        e.preventDefault();
+    });
+
+    // Bootstrap form validation
+    (() => {
+        'use strict'
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        const forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.from(forms).forEach(form => {
+            form.addEventListener('submit', event => {
+                if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                }
+
+                form.classList.add('was-validated')
+            }, false)
+        })
+    })()
+</script>
