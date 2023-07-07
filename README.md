@@ -23,7 +23,7 @@ A web application where you can save the movies you watch with their information
 
 | Color             | Hex                                                               |
 | ----------------- | ------------------------------------------------------------------ |
-| Primary Color | ![#198754](https://placehold.co/10x10/dc3545/198754) #198754 |
+| Primary Color | ![#198754](https://placehold.co/10x10/198754/198754) #198754 |
 | Dark Color | ![#212529](https://placehold.co/10x10/212529/212529) #212529 |
 | Light Color | ![#FFF](https://placehold.co/10x10/white/white) #FFF | 
 
@@ -58,7 +58,7 @@ Getting started see `CONTRIBUTING.md`.
 
 | Renk             | Hex                                                               |
 | ----------------- | ------------------------------------------------------------------ |
-| Birincil Renk | ![#198754](https://placehold.co/10x10/dc3545/198754) #198754 |
+| Birincil Renk | ![#198754](https://placehold.co/10x10/198754/198754) #198754 |
 | Koyu Renk | ![#212529](https://placehold.co/10x10/212529/212529) #212529 |
 | Açık Renk | ![#FFF](https://placehold.co/10x10/white/white) #FFF | 
 ## 📍 Yol Haritası & Yapılacaklar Listesi
