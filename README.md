@@ -1,10 +1,10 @@
 <p align="center" width="100%">
-    <img width="25%" src="https://raw.githubusercontent.com/sonatipek/track-the-movies/main/public/logo.svg"> 
+    <img width="25%" src="https://raw.githubusercontent.com/sonatipek/track-the-books/main/public/logo.svg"> 
 </p>
 
 
 # 🎬 Track Book on Your Watch - EN
-A web application where you can save the movies you watch with their information. You can add the movies you have watched with information such as poster, name, lead roles, director, genre and rating. In this way, you can easily keep track of the movies you watch.
+A web application where you can save the books you read with their information. You can add the books you have read with information such as picture, title, author, genre, page number, publisher, reading date and score. In this way, you can easily keep track of the books you watch.
 
 ## 💻 Tech Stack
 - Astro.js
@@ -40,8 +40,8 @@ Getting started see `CONTRIBUTING.md`.
 
 <br><br>
 
-# 🎬 İzlediğiniz Fimleri Takip Edin - TR
-İzlediğiniz filmleri bilgileri ile beraber kaydedebileceğiniz bir web uygulaması. İzlediğiniz filmleri afiş, isim, başroller, yönetmen, tür ve puan gibi bilgileri ile beraber ekleyebilirsiniz. Bu sayede izlediğiniz filmleri kolayca takip edebilirsiniz.
+# 🎬 Okuduğunuz Kitapları Takip Edin - TR
+İzlediğiniz kitapları bilgileri ile beraber kaydedebileceğiniz bir web uygulaması. Okuduğunuz kitapları resim, başlık, yazar, tür, sayfa sayısı, yayıncı, okuma tarihi ve puan gibi bilgileri ile beraber ekleyebilirsiniz. Bu sayede okuduğunuz kitapları kolayca takip edebilirsiniz.
 
 ## 💻 Kullanılan Teknolojiler
 - Astro.js
