@@ -11,7 +11,7 @@ import Layout from "../layouts/Layout.astro";
               <h4 class="my-0 fw-normal">Add Book</h4>
             </div>
             <div class="card-body">
-              <form class="row needs-validation" x-data novalidate>
+              <form class="row needs-validation" novalidate>
 
                 <!-- Title -->
                 <div class="col-md-3">
@@ -83,7 +83,7 @@ import Layout from "../layouts/Layout.astro";
                 <!-- Page Number -->
                 <div class="col-md-2">
                     <div class="form-floating mb-3">
-                        <input x-mask="99" class="form-control form-control-sm" id="book-page" placeholder="10" required>
+                        <input type="number" class="form-control form-control-sm" id="book-page" placeholder="10" required>
                         <label for="book-page">Page Number</label>
                         <div class="invalid-feedback">
                             Please make sure to fill out the input
