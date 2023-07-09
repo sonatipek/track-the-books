@@ -13,10 +13,8 @@ A web application where you can save the books you read with their information. 
 - Alpine.js
 
 ## 📷 Screen Shots
-![image](https://github.com/sonatipek/track-the-books/assets/80075444/9785314f-96f9-45be-a6d1-ed11d138731d)
-![image](https://github.com/sonatipek/track-the-books/assets/80075444/971ce1aa-aaa8-4a74-b30f-35bbe9c42454)
-
-
+![image](https://github.com/sonatipek/track-the-books/assets/80075444/6030c2bd-3d59-452c-8d96-aafb3da392cc)
+![image](https://github.com/sonatipek/track-the-books/assets/80075444/43cff613-2b0c-4a64-b8ae-b73c79857311)
 
 
 ## 💅🏼 Style Guide
@@ -54,8 +52,8 @@ Getting started see `CONTRIBUTING.md`.
 - Alpine.js
 
 ## 📷 Ekran Görüntüleri
-![image](https://github.com/sonatipek/track-the-books/assets/80075444/9785314f-96f9-45be-a6d1-ed11d138731d)
-![image](https://github.com/sonatipek/track-the-books/assets/80075444/971ce1aa-aaa8-4a74-b30f-35bbe9c42454)
+![image](https://github.com/sonatipek/track-the-books/assets/80075444/1609472e-0c49-4414-b1c4-00f9cc062140)
+![image](https://github.com/sonatipek/track-the-books/assets/80075444/43cff613-2b0c-4a64-b8ae-b73c79857311)
 
 ## 💅🏼 Stil Rehberi
 ### Colors
