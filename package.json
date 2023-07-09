@@ -10,6 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.7.0"
+    "astro": "^2.7.0",
+    "astro-seo": "^0.7.4"
   }
 }
